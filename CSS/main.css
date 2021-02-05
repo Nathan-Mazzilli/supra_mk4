@@ -15,7 +15,7 @@ h1 {
 p {
     font-family: Noto Sans JP, serif;
     font-size: 1.25rem;
-    line-height: 160%;
+    line-height: 1.6em;
     color: #0F0F0F;
 }
 body {
@@ -27,7 +27,7 @@ body {
 header {
     background-color: #FFFFFF;
     box-shadow: 0 0 10px 0 #000000;
-    height: 10%;
+    height: 20%;
 }
 .menu {
     width: 10%;
@@ -75,6 +75,7 @@ footer .reseaux {
 }
 footer .reseaux p {
     margin :0;
+    padding: 5%;
 }
 
 /*******************************
