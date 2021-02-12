@@ -146,8 +146,9 @@ td {
  ******************************/
 .page_menu nav h1 {
     display:inline-block;
-    vertical-align: center;
-    text-align: center;
+    margin-left: 12%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 nav .quitter {
@@ -155,5 +156,23 @@ nav .quitter {
     margin-left: 5%;
     width: 10%;
     display: inline-block;
-    vertical-align: center;
+    float: left;
+}
+
+.page_menu main div {
+    background-color: #CCCCCC;
+    text-align: center;
+    font-family: "Noto Sans JP",cursive;
+    font-size: 1.7rem;
+}
+
+.page_menu main {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #0F0F0F;
+    transform: translateY(50px);
+    animation: slideUp .8s ease-in-out  forwards 1s;
+
 }
