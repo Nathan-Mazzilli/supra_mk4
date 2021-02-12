@@ -119,3 +119,9 @@ td {
     border-color:#FFBAAD;
     font-family: "Noto Sans JP",serif;
 }
+/*******************************
+             Menu
+ ******************************/
+.page_menu h1 {
+    text-align: center;
+}
