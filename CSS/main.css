@@ -37,15 +37,16 @@ header {
 
 .menu {
     width: 10%;
-    padding: 10%;
+    padding: 6%;
     margin-left: 3%;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .logo {
     margin-bottom: 2%;
     padding: 5%;
     width: 50%;
+    float: right;
 }
 
 /*******************************
@@ -71,16 +72,14 @@ footer {
 .instagram {
     vertical-align: center;
     width: 20%;
-    margin-right: 2%;
-    margin-bottom: 7%;
-    margin-left: 5%;
+    margin-bottom: 3%;
 }
 
 .youtube {
-    padding: 5%;
+    padding-bottom: 0.5%;
     vertical-align: center;
     width: 25%;
-    margin-left: 2%;
+    margin-left: 5%;
 }
 
 footer .reseaux {
@@ -89,7 +88,7 @@ footer .reseaux {
 
 footer .reseaux p {
     margin: 0;
-    padding: 5%;
+    padding-bottom: 3%;
 }
 
 /*******************************
@@ -118,18 +117,22 @@ ul {
 /*******************************
              Vente
  ******************************/
-
+.page_vente h1{
+    display: inline-block;
+}
 tr {
     text-align: center;
 }
 
 table {
+    max-width: 650px;
     border-width: 1px;
     border-style: solid;
     border-color: #FFBAAD;
     margin-bottom: 10%;
-    text-align: center;
-    margin-left: 12%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .supra_mk5 {
@@ -142,16 +145,18 @@ td {
     border-style: solid;
     border-color: #FFBAAD;
     font-family: "Noto Sans JP", serif;
+    width: 25%;
 }
 
 /*******************************
              Menu
  ******************************/
 .page_menu nav h1 {
-    display:inline-block;
-    margin-left: 12%;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin: 0;
+    padding-bottom: 5%;
+    display:block;
+    text-align: center;
+    vertical-align: center;
 }
 
 nav .quitter {
@@ -176,4 +181,8 @@ a {
     text-decoration: none;
     color: #0F0F0F;
 
+}
+
+.page_menu h2 {
+    padding: 3%;
 }
