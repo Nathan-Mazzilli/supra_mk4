@@ -1,12 +1,12 @@
 
-@media only screen and (min-width: 1036px) {
+@media only screen and (min-width: 1024px) {
     header .menu {
         display: none;
     }
 
     header nav ul li {
         display: inline-block;
-        margin: 0 10px 0 10px;
+        margin: 0 8px 0 8px;
         padding: 2%;
     }
     header .logo {
@@ -26,7 +26,7 @@
     }
 }
 
-@media only screen and (max-width:1035px) {
+@media only screen and (max-width:1023px) {
     header ul .menu_accueil, .menu_histoire, .menu_caracteristique, .menu_vente {
         display: none;
     }
