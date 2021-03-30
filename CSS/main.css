@@ -156,6 +156,7 @@ td {
     display:block;
     text-align: center;
     vertical-align: center;
+    padding-top: 10px;
 }
 
 nav .quitter {
