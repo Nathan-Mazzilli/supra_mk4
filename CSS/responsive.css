@@ -22,9 +22,8 @@
     }
 }
 
-@media only screen and (max-width:1035px){
-     header ul .menu_accueil, .menu_histoire, .menu_caracteristique, .menu_vente {
+@media only screen and (max-width:1035px) {
+    header ul .menu_accueil, .menu_histoire, .menu_caracteristique, .menu_vente {
         display: none;
     }
-
 }
