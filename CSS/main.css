@@ -24,7 +24,9 @@ p {
 body {
     background-color: #EBEBEB;
 }
-
+ul {
+    list-style-type: none;
+}
 /*******************************
           Header
  ******************************/
@@ -44,7 +46,7 @@ header {
 .logo {
     margin-bottom: 2%;
     padding: 5%;
-    width: 50%;
+    width: 225px;
     float: right;
 }
 
