@@ -127,13 +127,9 @@ tr {
 
 table {
     max-width: 650px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #FFBAAD;
-    margin-bottom: 10%;
+    border: solid 1px #FFBAAD;
     display: block;
-    margin-left: auto;
-    margin-right: auto
+    margin: 0 auto 10% auto;
 }
 
 .supra_mk5 {
@@ -142,9 +138,7 @@ table {
 }
 
 td {
-    border-width: 1px;
-    border-style: solid;
-    border-color: #FFBAAD;
+    border: 1px solid #FFBAAD;
     font-family: "Noto Sans JP", serif;
     width: 25%;
 }
