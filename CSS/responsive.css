@@ -21,8 +21,11 @@
         margin: 0;
     }
     .page_accueil .need_for_speed {
-       text-align: right;
+       float: right;
         width: 50%;
+    }
+    .page_accueil p {
+        margin-right:  55%;
     }
 }
 
